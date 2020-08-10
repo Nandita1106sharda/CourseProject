@@ -1,0 +1,93 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20px;
+	color:black;
+}
+
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.logo{
+	text-align: right;
+	height: 50%;
+	width: 	50%;
+	float: left;
+	margin-top: 30%;
+	margin-left: 85%;
+	border-radius: 50px;
+
+}
+
+.navbar-nav{
+	float: right;
+	margin-top: 0px;
+
+}
+.navbar-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+
+.navbar-nav li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+	font-family: 'Lemonada', cursive;
+}
+
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	font-family: 'Lemonada', cursive;
+	font-weight: lighter;
+}
+
+h1{
+	color:black;
+	font-size: 240%;
+	word-spacing: 5px;
+}
+
+@media only screen and (max-width: 1180px){
+	.main-content-header{
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+@media only screen and (max-width: 998px){
+	h1{
+		font-size: 200%;
+	}
+}
+/*@media only screen and (max-width: 768px){
+	.navbar-nav{
+		display: none;
+	}
+*/
+	/*.mobile-icon{
+		display: inline-block;
+		color:black;
+		text-align: center;
+		margin-top: 100%;
+		padding-right: 80%;
+	}
+}*/

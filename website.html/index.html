@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bhangra Beats</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<header>
+	
+	<nav class="navbar navbar-expland-sm justify-content-center">
+		<div class= "row clearfix">
+			<img src="images/bhangra logo.jpg" class="logo">
+
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+   			 <span class="navbar-toggler-icon"></span>
+  			</button>
+			
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav" id="check-class">
+				<li class="nav-item"><a href="index.html">Home</a></li>
+				<li class="nav-item"><a href="services.html">Services</a></li>
+				<li class="nav-item"><a href="about.html">About</a></li>
+				<li class="nav-item"><a href="enquiry.html">Enquiry</a></li>
+			</ul>
+			<a href="#" class="mobile-icon"  onclick="slideshow()"><i class="fa fa-bars"></i></a>
+			</div>
+
+		</div>
+	</nav>
+    
+ <div class="main-content-header">
+	<h1>Welcome to Bhangra Beats<br>
+	Best Bhangra Academy in BC</h1>
+ </div>
+</header>
+
+<script type="text/javascript">
+	function slideshow(){
+		var x = document.getElementById('check-class');
+		  if(x.style.display ==="none"){
+		  	x.style.display="block";
+		  }else{
+		  	x.style.display="none";
+		  }
+	}
+</script>
+
+</body>
+</html>
